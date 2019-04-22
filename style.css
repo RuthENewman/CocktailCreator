@@ -6,6 +6,7 @@ body, html {
   text-align: center;
   overflow: hidden;
   font-size: 20px;
+  margin: 0;
 }
 
 #logo {
@@ -29,6 +30,7 @@ h2, h3 {
   border-radius: 5px;
   padding: 5px;
   background-color: lavender;
+  text-align: center;
 }
 
 #submitButton {
@@ -52,5 +54,50 @@ h2, h3 {
 }
 
 img {
-  height: 100px;
+  height: 200px;
+}
+
+.displayCocktail {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#cocktailInstructions {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.ingredients {
+  font-size: 16px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body, html {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    overflow-y: scroll;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  #logo {
+    margin-top: 15px;
+    height: 50px;
+  }
+
+  h2, h3 {
+    margin: 5px;
+  }
+
+  img {
+    height: 150px;
+  }
+
 }
