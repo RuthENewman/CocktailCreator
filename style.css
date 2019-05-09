@@ -69,16 +69,11 @@ img {
   border-radius: 5px;
   padding: 2px;
   margin: 0;
-  text-align: left;
 }
 
 .ingredients {
   font-size: 16px;
   margin: 0px 10px;
-}
-
-.ingredients > span {
-  text-align: left;
 }
 
 #cocktailName {
