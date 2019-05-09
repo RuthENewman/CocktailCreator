@@ -46,8 +46,8 @@ function getCocktailById(cocktailID) {
       selectedDrinkInstructions = selectedDrink.strInstructions;
       displayCocktailDiv.innerHTML = `
       <div class="dispayCocktail">
-        <img src=${selectedDrinkImage} alt=${selectedDrinkName} id="cocktailImage"/>
         <p id="cocktailName">${selectedDrinkName}</p>
+        <img src=${selectedDrinkImage} alt=${selectedDrinkName} id="cocktailImage"/>
       `;
       displayCocktailDivIngredients.innerHTML = `
           <h3>Ingredients</h3>
