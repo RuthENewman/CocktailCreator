@@ -25,6 +25,10 @@ h2, h3, h4 {
   margin: 5px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 #title {
   font-size: 28px;
   margin: 0;
