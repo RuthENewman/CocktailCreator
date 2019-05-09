@@ -4,6 +4,7 @@ const displayCocktailDiv = document.querySelector('.displayCocktail');
 const spiritForm = document.getElementById('textInput');
 const submitButton = document.getElementById('submitButton');
 const displayCocktailDivIngredients = document.querySelector('.ingredients');
+const body = document.querySelector('body');
 
 state = {
   drinks: []
@@ -148,3 +149,7 @@ submitButton.addEventListener('click', event => {
   let selectedSpirit = textInput.value;
   getCocktails(selectedSpirit);
 })
+
+body.addEventListener('scroll', event => {
+  body.style.height = '200vh';
+});
