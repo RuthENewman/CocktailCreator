@@ -10,14 +10,14 @@ body, html {
 }
 
 #logo {
-  margin-top: 30px;
-  height: 80px;
+  margin-top: 15px;
+  height: 60px;
 }
 
 .heading {
   font-family: 'Eagle Lake', cursive;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2, h3, h4 {
@@ -54,7 +54,7 @@ h2, h3, h4 {
 }
 
 img {
-  height: 200px;
+  height: 150px;
 }
 
 .displayCocktail {
@@ -69,11 +69,20 @@ img {
   border-radius: 5px;
   padding: 2px;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .ingredients {
   font-size: 16px;
+  margin: 0px 10px;
+}
+
+.ingredients > span {
+  text-align: left;
+}
+
+#cocktailName {
+  font-size: 22px;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -90,7 +99,7 @@ img {
 
   #logo {
     margin-top: 15px;
-    height: 50px;
+    height: 40px;
   }
 
   h2, h3, h4 {
@@ -98,7 +107,7 @@ img {
   }
 
   img {
-    height: 150px;
+    height: 100px;
   }
 
 }
