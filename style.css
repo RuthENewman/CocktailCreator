@@ -17,8 +17,6 @@ body, html {
 
 .heading {
   font-family: 'Eagle Lake', cursive;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 h2, h3, h4 {
@@ -94,6 +92,9 @@ img {
 
 #cocktailName {
   font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 @media only screen and (max-device-width: 480px) {
